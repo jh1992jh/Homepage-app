@@ -1,0 +1,156 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+  font-weight: bold;
+}
+.App {
+  background-image: linear-gradient(to right, #67b26f, #4ca2cd);
+}
+
+.themes {
+  display: flex;
+}
+.theme {
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 100px;
+  margin: 22% 1rem 1% 1rem;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.theme1 {
+  background: linear-gradient(to right, #ff00cc, #333399);
+}
+
+.theme2 {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+.theme3 {
+  background: linear-gradient(to right, #00c3ff, #ffff1c);
+}
+
+.theme4 {
+  background: linear-gradient(to right, #360033, #0b8793);
+}
+
+.fab {
+  font-size: 2rem;
+}
+
+.iconBackground {
+  border: 1 solid black;
+  background: #d4d4d4;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.flexCenter {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.flexCenter2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.timeDisplay {
+  font-size: 6rem;
+}
+
+.nameInputs {
+  display: flex;
+  margin-top: 10%;
+}
+
+.nameInput {
+  border: none;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
+.btn {
+  background: transparent;
+  border-radius: 40px;
+  border: 1px solid green;
+  color: green;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.btn span {
+  letter-spacing: 2.8px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: #505050;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .flexCenter {
+    padding-top: 6%;
+  }
+  .theme {
+    margin: 74% 1rem 8% 1rem;
+  }
+  p {
+    margin-left: 5px;
+  }
+  .iconBackground {
+    margin-top: 3%;
+  }
+}
+
+/* Tablets, iPad(portrait) */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .flexCenter {
+    padding-top: 6%;
+  }
+  .theme {
+    margin: 91% 1rem 8% 1rem;
+  }
+  p {
+    margin-left: 5px;
+  }
+  .iconBackground {
+    margin-top: 3%;
+  }
+}
+
+/* Tablets, iPads(landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flexCenter {
+    padding-top: 6%;
+  }
+  .theme {
+    margin: 85% 1rem 8% 1rem;
+  }
+  p {
+    margin-left: 5px;
+  }
+  .iconBackground {
+    margin-top: 3%;
+  }
+}
